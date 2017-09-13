@@ -2,7 +2,7 @@ version: 2
 jobs:
    build:
      docker:
-       - image: circleci/JavaScript:latest
+       - image: circleci/JavaScript:7 
      steps:
        - checkout
        - run: echo "hello world"
